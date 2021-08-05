@@ -1,0 +1,202 @@
+a
+{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+body
+{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+a.mr-auto.navbar-brand {
+    color: #f8b781;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+span.sr-only {
+    display: none;
+}
+a.link_header.text-center.nav-link {
+    padding-right: 30px;
+    font-family: sans-serif;
+    color: #000 !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar_header
+{
+    justify-content: flex-end;
+}
+
+
+.topbar {
+    background: #333;
+}
+
+.topbar ul {
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.topbar ul li {
+    display: inline-block;
+    margin-left: 60px;
+    color: #f07a34;
+    font-family: 'Poppins';
+}
+
+.topbar ul li p {
+    margin-left: 15px;
+    position: relative;
+    top: 13px;
+}
+
+.topbar img {
+    height: 40px;
+    position: relative;
+    top: 3px;
+}
+button.btn_appointment {
+    height: 60px;
+    background: #f07a34;
+    color: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+}
+
+.topbar ul li .d-flex {
+    position: relative;
+    top: 8px;
+}
+
+@media(max-width: 767px)
+{
+    .topbar
+    {
+        display: none;
+    }
+}
+section.footer {
+    text-align: center;
+    background: #666666;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+}
+.card-overlay {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    min-height: 250px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #383838;
+    border: 1px solid #eae5e1;
+  }
+
+  .card {
+    border: 1px solid #eae5e1;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    max-width: 275px;
+    min-height: 275px;
+    position: relative;
+  }
+
+  .card-overlay span {
+    color: #d57e52;
+  }
+
+  .style1 {
+    background-color: #f9f9f9;
+  }
+
+  .content-list {
+    margin: 78px;
+    margin-left: 100px;
+    max-width: 400px;
+    margin-bottom: 40px;
+  }
+
+  .content-list h1 {
+    text-transform: uppercase;
+  }
+
+  .content-list h1 span {
+    text-transform: lowercase;
+  }
+
+  .content-list ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-list ul li {
+    list-style: none;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+  }
+
+  .content-list ul li i.fa.fa-chevron-right {
+    position: absolute;
+    margin-top: 8px;
+    left: 0px;
+    font-size: 18px;
+  }
+
+  .content-img img {
+    width: 100%;
+    height: auto;
+  }
+  .content-list h1 {
+    margin-bottom: 30px;
+}
+  button.btn_Covid
+  {
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 2rem;
+  }
+  @media screen and (max-width:767px) {
+    .ord2 {
+      order: 1
+    }
+    .content-list
+    {
+        margin-left: 25px;
+    }
+  }
+
+
+@media(min-width: 768px)
+{
+    .carousel-inner img {
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+.carousel-caption
+{
+    display: none !important;
+}
